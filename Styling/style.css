@@ -1,8 +1,12 @@
 body{
  background-color: #313131;
 }
-
+nav.main{
+    display: block;
+}
 .header {
+    margin: 0;
+    padding: 0;
     background-color: #232323;
     overflow: hidden;
     width: 100%;
@@ -18,13 +22,14 @@ body{
     font-size: 20px;
     font-family: arial;
     transition: all 250ms ease-out;
+    font-family: 'Raleway', sans-serif;
 }
+
    
 .header a:hover {
     
     color: rgb(21, 91, 255);
     transition: all 250ms;
-    
 }
   
 .header a.active {
@@ -45,7 +50,7 @@ body{
 .welcometext{
     color: rgb(226, 226, 226);
     text-align: center;
-    margin-top: 10%;
+    margin-top: 7%;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -55,21 +60,45 @@ body{
     margin-left: 45.5%;
     margin-top: 1%;
     transform: translate(10%, -30%);
-    color: #f2f2f2;
+    color: rgb(226, 226, 226);;
     font-family: 'Raleway', sans-serif;
-    border: 2px solid white;
+    border: 2px solid rgb(226, 226, 226);;
     padding: 4px 10px;
-    border-radius: 5px;
     transition: all 250ms;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.606);
 }
 
 .moreme:hover{
     color: #0000ff;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(219, 219, 219);;
     transition: all 250ms ease-out;
-
+    box-shadow: 0px 0px 0px;
+    margin-top: 1.1%;
 }
 .pfp1{
+    height: 200px;
+    width: auto;
     border-radius: 100%;
     margin-left: 45.1%;
+    transition: all 250ms ease-out;
+}
+.pfp1:hover{
+    height: 300px;
+    width: auto;
+    border-radius: 100%;
+    margin-left: 43.1%;
+    transition: all 250ms ;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.377);
+}
+
+.tekst{
+    color: rgb(226, 226, 226);
+    max-width: 250px;
+    margin-left: 45%;
+    font-family: 'Raleway', sans-serif;
+}
+.logo{
+    height: 60px;
+    width: auto;
+    margin-left: 0.5%;
 }
