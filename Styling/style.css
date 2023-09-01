@@ -1,3 +1,4 @@
+
 body{
  background-color: #313131;
 }
@@ -41,10 +42,10 @@ nav.main{
       0 0 10px #0000f0,
       0 0 21px #0000f0,
       0 0 42px rgb(6, 57, 225),
-      0 0 82px rgb(0, 0, 0),
-      0 0 92px rgb(0, 0, 0),
-      0 0 102px rgb(0, 0, 0),
-      0 0 151px rgb(0, 0, 0);
+      0 0 82px rgba(0, 0, 0, 0),
+      0 0 92px rgba(0, 0, 0, 0),
+      0 0 102px rgba(0, 0, 0, 0),
+      0 0 151px rgba(0, 0, 0, 0);
 }
 
 .welcometext{
@@ -102,3 +103,15 @@ nav.main{
     width: auto;
     margin-left: 0.5%;
 }
+
+body{
+    background: #141414;
+    overflow:hidden;
+  }
+  canvas{
+      position:absolute;
+      top:0;
+      left:0;
+  }
+
+  
