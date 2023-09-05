@@ -67,6 +67,7 @@ nav.main{
     padding: 4px 10px;
     transition: all 250ms;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.606);
+    border-radius: 7px;
 }
 
 .moreme:hover{

@@ -36,6 +36,23 @@ body{
   transition: all 250ms;
 }
 
-/*.itemname{
-  color: rgb(226, 226, 226);
+.logovtk{
+  width: auto;
+  height: 200px;
+  margin-left: 0;
+  margin-top: 5%;
+}
+.logobjm{
+  width: auto;
+  height: 150px;
+  margin-left: 0;
+  margin-top: 7%;
+  
+}
+.logoquiz{
+  width: auto;
+  height: 80px;
+  margin-left: 0;
+  margin-top: 25%;
+  filter: invert(70%);
 }
