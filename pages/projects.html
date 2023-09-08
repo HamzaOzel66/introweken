@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="../Script/index.js"></script>
     <link rel="stylesheet" href="../Styling/projects.css">
     <link rel="icon" href="../media/logo1.png">
     <link rel="stylesheet" href="../Styling/style.css">
@@ -24,10 +25,16 @@
     </nav>
     <h1 class="title">My projects</h1>
     <div class="grid-container">
-        <div class="grid-item"><p class="itemname">Quizzie</p><img class="logoquiz" src="../media/logoquiz.png" alt=""></div>
-        <div class="grid-item"><p class="itemname">BestelJeMaaltijd</p><img class="logobjm" src="../media/logobjm.png" alt=""></div>
-        <div class="grid-item"><p class="itemname">VillaTeKoop</p><img class="logovtk" src="../media/logovtk.png" alt=""></div>
-        <div class="grid-item"><p class="itemname">Minoropdr</p><img class="logominop" src="../media/logominop.png" alt=""></div>
+        <div class="grid-item" href="#textdiv" onclick="project1()"><p class="itemname">Quizzie</p><img class="logoquiz" src="../media/logoquiz.png" alt=""></div>
+        <div class="grid-item" href="#textdiv" onclick="project2()"><p class="itemname">BestelJeMaaltijd</p><img class="logobjm" src="../media/logobjm.png" alt=""></div>
+        <div class="grid-item" href="#textdiv" onclick="project3()"><p class="itemname">VillaTeKoop</p><img class="logovtk" src="../media/logovtk.png" alt=""></div>
+        <div class="grid-item" href="#textdiv" onclick="project4()"><p class="itemname">Minoropdr</p><img class="logominop" src="../media/logominop.png" alt=""></div>
+    </div>
+    <br>
+    <div id="textdiv">
+        <h1 id="header"></h1>
+
+        <p id="tekst"></p>
     </div>
 </body>
 </html>

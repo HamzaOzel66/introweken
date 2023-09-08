@@ -107,7 +107,6 @@ nav.main{
 
 body{
     background: #141414;
-    overflow:hidden;
   }
   canvas{
       position:absolute;
@@ -115,4 +114,4 @@ body{
       left:0;
   }
 
-  
+ 

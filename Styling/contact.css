@@ -18,7 +18,7 @@ form {
     margin-left: -45%;
     border-radius: 20px;
     min-width: 190%;
-    margin-top: -58%;
+    margin-top: -65%;
 }
 input[type=text],
 select,
@@ -34,6 +34,7 @@ textarea {
 }
 
 input[type=email], select {
+  font-size: 15px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -44,6 +45,7 @@ input[type=email], select {
   }
 
 input[type=tel], select {
+  font-size: 15px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
